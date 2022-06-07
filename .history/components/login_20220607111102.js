@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <div className={styles.loginPage}>
-      <h2 className={styles.title}>Welcome to Inspify Web3 Streaming Platform</h2>
+      <h2 className={styles.text}>Inspify Web3 Streaming Platform</h2>
       <p className={styles.text}>Login to access this app</p>
       <WalletMultiButton />
     </div>

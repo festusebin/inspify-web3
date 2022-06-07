@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <div className={styles.loginPage}>
-      <h2 className={styles.title}>Welcome to Inspify Web3 Streaming Platform</h2>
+      <h2 className={styles.title}>Inspify Web3 Streaming Platform</h2>
       <p className={styles.text}>Login to access this app</p>
       <WalletMultiButton />
     </div>
@@ -22,5 +22,5 @@ export default Login
 const styles = {
   loginPage: `w-screen h-screen bg-smokewhite flex justify-center flex-col items-center`,
   text: `text-4xl text-black mb-10`,
-  title: `font-bold`
+  title: `textfont-bold`
 }
