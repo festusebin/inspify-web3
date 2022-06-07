@@ -21,6 +21,6 @@ export default Login
 
 const styles = {
   loginPage: `w-screen h-screen bg-smokewhite flex justify-center flex-col items-center`,
-  text: `text-4xl text-black mb-10 justify-center items-center`,
+  text: `text-4xl text-black mb-10 `,
   title: `font-bold`
 }
