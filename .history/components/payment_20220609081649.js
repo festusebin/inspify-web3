@@ -22,7 +22,7 @@ export const Payment = () => {
   const wallet = useWallet()
   const connection = new anchor.web3.Connection(SOLANA_HOST)
   const program = getProgramInstance(connection, wallet)
-
+  
   const [payers, setPayers] = useState([])
   const [isPaid, setPaid] = useState(false)
 
@@ -56,13 +56,13 @@ export const Payment = () => {
           accounts: {
             payerWallet: payerSigner,
             receiver: new PublicKey(
-              'A58c54YVZnXPX89mLqEeCbfQaJvX9Qy1Rv62c8KLVmft',
+              'FdGbqLGZQgTpqXc1bKa41YsJTWHPxfwZKmTykjG6Jj1V',
             ),
             authority: wallet.publicKey,
             ...defaultAccounts,
           },
         })
-        alert('Transaction Successful')
+        alert('Transaction proceed')
       } catch (e) {
         alert(e.message)
       }
@@ -82,10 +82,10 @@ export const Payment = () => {
           onClick={payClicked}
           disabled={isPaid}
         >
-          Pay 1.0 Sol
+          Pay 0.1 Sol
         </button>
         <button className={styles.button} onClick={getAllWallets}>
-          Verify Payment
+          Update List
         </button>
       </div>
     </div>

@@ -56,13 +56,13 @@ export const Payment = () => {
           accounts: {
             payerWallet: payerSigner,
             receiver: new PublicKey(
-              'A58c54YVZnXPX89mLqEeCbfQaJvX9Qy1Rv62c8KLVmft',
+              'FdGbqLGZQgTpqXc1bKa41YsJTWHPxfwZKmTykjG6Jj1V',
             ),
             authority: wallet.publicKey,
             ...defaultAccounts,
           },
         })
-        alert('Transaction Successful')
+        alert('Transaction proceed')
       } catch (e) {
         alert(e.message)
       }
@@ -82,10 +82,10 @@ export const Payment = () => {
           onClick={payClicked}
           disabled={isPaid}
         >
-          Pay 1.0 Sol
+          Pay 0.1 Sol
         </button>
         <button className={styles.button} onClick={getAllWallets}>
-          Verify Payment
+          Verify 
         </button>
       </div>
     </div>

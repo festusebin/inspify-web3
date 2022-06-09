@@ -11,7 +11,7 @@ const Playlist = ({songs}) => {
             <th className='pb-3'>TITLE</th>
             <th className='pb-3'>PLAYS</th>
             <th className='pb-3'>
-              <img alt='time' src='assets/time.svg' />
+              <img alt='' src='assets/time.svg' />
             </th>
           </tr>
         </tbody>

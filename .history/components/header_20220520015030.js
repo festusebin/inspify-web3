@@ -12,9 +12,9 @@ const style = {
   header: `max-w-7xl m-auto p-3`,
   headerWrapper: `flex items-center justify-between`,
   playlistTextContent: `flex items-end mt-10`,
-  profileAvatarContainer: `w-7 h-7 rounded-full -ml-2 mr-3 flex items-center`,
+  profileAvatarContainer: `w-7 h-7 rounded-full -ml-2 mr-3`,
   controlsContainer: `flex items-center mt-10`,
-  playButton: `bg-green-500 w-12 h-12 flex pl-2 items-center justify-center rounded-full cursor-pointer`,
+  playButton: `bg-green-500 w-16 h-16 flex pl-2 items-center justify-center rounded-full cursor-pointer`,
 }
 
 const Header = ({ setShowUploadMusic }) => {
@@ -25,10 +25,10 @@ const Header = ({ setShowUploadMusic }) => {
       <div className={style.headerWrapper}>
         <div className='flex items-center'>
           <div className={style.arrowButton}>
-            <img alt='left' src='assets/chevronLeft.svg' width={20} height={20} />
+            <img alt='' src='assets/chevronLeft.svg' width={20} height={20} />
           </div>
           <div className={style.arrowButton}>
-            <img alt='right' src='assets/chevronRight.svg' width={20} height={20} />
+            <img alt='' src='assets/chevronRight.svg' width={20} height={20} />
           </div>
         </div>
 
@@ -37,16 +37,16 @@ const Header = ({ setShowUploadMusic }) => {
 
           <div className={style.profile}>
             <div className={style.profileAvatarContainer}>
-              <img alt='avatar' src='assets/avatar.jpg' className='rounded-full' width={20} height={20} />
+              <img alt='' src='assets/avatar.jpg' className='rounded-full' />
             </div>
-            <p>Festus Ebin</p>
+            <p>Your Name</p>
           </div>
         </div>
       </div>
 
       <div className={style.playlistTextContent}>
         <Image
-          alt='album'
+          alt=''
           src='https://angartwork.akamaized.net/webp/?id=150949021&size=296'
           width={220}
           height={220}
@@ -54,7 +54,7 @@ const Header = ({ setShowUploadMusic }) => {
 
         <div className='ml-5'>
           <div>ALBUM</div>
-          <div className={style.title}>Current Song</div>
+          <div className={style.title}>Your Album</div>
           <div className='flex items-center mt-5'>
             <div className={style.profileAvatarContainer}>
               <img alt='' src='assets/avatar.jpg' className='rounded-full' />

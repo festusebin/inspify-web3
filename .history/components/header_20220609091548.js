@@ -14,7 +14,7 @@ const style = {
   playlistTextContent: `flex items-end mt-10`,
   profileAvatarContainer: `w-7 h-7 rounded-full -ml-2 mr-3 flex items-center`,
   controlsContainer: `flex items-center mt-10`,
-  playButton: `bg-green-500 w-12 h-12 flex pl-2 items-center justify-center rounded-full cursor-pointer`,
+  playButton: `bg-green-500 w-16 h-16 flex pl-2 items-center justify-center rounded-full cursor-pointer`,
 }
 
 const Header = ({ setShowUploadMusic }) => {
@@ -54,7 +54,7 @@ const Header = ({ setShowUploadMusic }) => {
 
         <div className='ml-5'>
           <div>ALBUM</div>
-          <div className={style.title}>Current Song</div>
+          <div className={style.title}>Your Album</div>
           <div className='flex items-center mt-5'>
             <div className={style.profileAvatarContainer}>
               <img alt='' src='assets/avatar.jpg' className='rounded-full' />

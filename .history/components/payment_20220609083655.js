@@ -62,7 +62,7 @@ export const Payment = () => {
             ...defaultAccounts,
           },
         })
-        alert('Transaction Successful')
+        alert('Transaction proceed')
       } catch (e) {
         alert(e.message)
       }
@@ -82,7 +82,7 @@ export const Payment = () => {
           onClick={payClicked}
           disabled={isPaid}
         >
-          Pay 1.0 Sol
+          Pay 0.1 Sol
         </button>
         <button className={styles.button} onClick={getAllWallets}>
           Verify Payment

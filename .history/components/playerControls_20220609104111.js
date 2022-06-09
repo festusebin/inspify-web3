@@ -44,13 +44,13 @@ const PlayerControls = ({songs}) => {
           </div>
 
         {isPaused ? <div className={styles.playIcon} onClick={play}><Image src={playRounded} alt="play" /></div>
-          : <div className={styles.pauseIconStyle} onClick={pause}><Image src={pauseIcon} alt="pause" /></div>}
+          : <div className={styles.pauseIconStyle} onClick={pause}><Image src={pauseIcon} alt="" /></div>}
 
           <div onClick={e => playNext(songs)} className={styles.controlIcon}>
             <Image src={next} alt='next' />
           </div>
           <div className={styles.controlIcon}>
-            <Image src={repeat} alt='repeat' />
+            <Image src={repeat} alt='' />
           </div>
         </div>
         <div className={styles.flexCenter}>
@@ -68,7 +68,7 @@ const PlayerControls = ({songs}) => {
 
       <div>
         <div className={styles.flexCenter}>
-          <Image src={speaker} alt="speaker" />
+          <Image src={speaker} alt="" />
           <input value={volume} onChange={e => onVolumeChange(e)} type='range' id='volume-range' />
         </div>
       </div>

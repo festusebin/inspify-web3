@@ -62,7 +62,7 @@ export const Payment = () => {
             ...defaultAccounts,
           },
         })
-        alert('Transaction Successful')
+        alert('Transaction proceed')
       } catch (e) {
         alert(e.message)
       }
