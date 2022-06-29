@@ -18,7 +18,6 @@ const style = {
 }
 
 const Header = ({ setShowUploadMusic }) => {
-  
   const { currentSong } = useContext(SpotifyContext)
 
   return (
@@ -55,7 +54,7 @@ const Header = ({ setShowUploadMusic }) => {
 
         <div className='ml-5'>
           <div>ALBUM</div>
-          <div className={style.title}>{ currentSong.album}</div>
+          <div className={style.title}>{ currentSong.al}</div>
           <div className='flex items-center mt-5'>
             <div className={style.profileAvatarContainer}>
               <img alt='' src='assets/avatar.jpg' className='rounded-full' />

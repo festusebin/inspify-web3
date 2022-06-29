@@ -20,6 +20,9 @@ build
 # misc
 .DS_Store
 *.pem
+.history
+.vscode
+
 
 # debug
 npm-debug.log*
@@ -42,6 +45,10 @@ yarn-error.log*
 # lock files
 yarn.lock
 package-lock.json
+wallet.json
+CREATE_NEXT_APP.md
+utils/spotify_old.json
+utils/utils.js
 
 target
 

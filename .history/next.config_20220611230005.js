@@ -16,8 +16,7 @@ const nextConfig = {
       'angartwork.akamaized.net',
       'cloudinary.com/'
     ],
-    loader: 'akamai',
-    path: '/',
+    loader: 'akamai'
   },
 }
 

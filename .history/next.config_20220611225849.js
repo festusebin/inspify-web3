@@ -11,13 +11,8 @@ const nextConfig = {
       'i.ytimg.com',
       'angartwork.akamaized.net',
       'i.scdn.co',
-      'encrypted-tbn1.gstatic.com',
-      'resources.tidal.com',
-      'angartwork.akamaized.net',
-      'cloudinary.com/'
+      'encrypted-tbn1.gstatic'
     ],
-    loader: 'akamai',
-    path: '/',
   },
 }
 

@@ -10,14 +10,8 @@ const nextConfig = {
       'upload.wikimedia.org',
       'i.ytimg.com',
       'angartwork.akamaized.net',
-      'i.scdn.co',
-      'encrypted-tbn1.gstatic.com',
-      'resources.tidal.com',
-      'angartwork.akamaized.net',
-      'cloudinary.com/'
+      'i.scdn.c'
     ],
-    loader: 'akamai',
-    path: '/',
   },
 }
 

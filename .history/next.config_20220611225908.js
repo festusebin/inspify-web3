@@ -12,12 +12,8 @@ const nextConfig = {
       'angartwork.akamaized.net',
       'i.scdn.co',
       'encrypted-tbn1.gstatic.com',
-      'resources.tidal.com',
-      'angartwork.akamaized.net',
-      'cloudinary.com/'
+      'resources.tidal.com'
     ],
-    loader: 'akamai',
-    path: '/',
   },
 }
 

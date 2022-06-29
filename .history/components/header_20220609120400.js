@@ -18,7 +18,6 @@ const style = {
 }
 
 const Header = ({ setShowUploadMusic }) => {
-  
   const { currentSong } = useContext(SpotifyContext)
 
   return (

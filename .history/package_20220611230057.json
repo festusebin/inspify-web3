@@ -7,10 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "yarn run build && next export && mv out _static"
-  },
-  "engines": {
-    "node": "14.x"
+    
   },
   "dependencies": {
     "@project-serum/anchor": "^0.22.1",

@@ -17,7 +17,6 @@ const nextConfig = {
       'cloudinary.com/'
     ],
     loader: 'akamai',
-    path: '/',
   },
 }
 
