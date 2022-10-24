@@ -20,7 +20,7 @@ const Login = () => {
 export default Login
 
 const styles = {
-  loginPage: `w-screen h-screen bg-white text-black flex justify-center flex-col items-center`,
-  text: `text-4xl text-black mb-10 justify-center items-center`,
-  title: `text-black font-bold`
+  loginPage: `w-screen h-screen bg-black text-white flex justify-center flex-col items-center`,
+  text: `text-4xl text-white mb-10 justify-center items-center`,
+  title: `text-white font-bold`
 }
