@@ -15,3 +15,14 @@ This is a dApp platform built on the Solana blockchain network that allows users
 - select favourite artists
 - And more features coming your way
 - Mobile App
+
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
