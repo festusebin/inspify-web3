@@ -47,7 +47,7 @@ npm install && npm run dev
 
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To follow the developmen link, follow the instructions below;
+To follow the development link, follow the instructions below;
 - Click on the link https://inspify.vercel.app it takes you to this screen
 
 ![Home Screen](assets/preview/1.png)
