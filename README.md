@@ -33,7 +33,7 @@ git clone https://github.com/festusebin/inspify-web3.git
 npm install && npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 To follow the developmen link, follow the instructions below;
 - Click on the link https://inspify.vercel.app it takes you to this screen
@@ -44,6 +44,18 @@ To follow the developmen link, follow the instructions below;
 
 ![Wallet Screen](assets/preview/2.png)
 
-- Click on connect your phantom wallet and if you don't have the solana's phantom wallet, you can get it here via this link; https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa?hl=en
+- Click on connect your phantom wallet and if you don't have the solana's phantom wallet or a sol devnet test account, you can get it here via this link; https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa?hl=en and https://solfaucet.com/
 
 ![Wallet Popup](assets/preview/3.png)
+
+- After connecting your wallet to the blockchain, you make a deposit of 1.0 sol token which is the unit for solana asset.
+![payment page](assets/preview//4.png)
+
+- After clicking on the pay button, you need to approve the transactions as shown on the screen below;
+![transaction](assets/preview/5.png)
+
+- After the transactions have been approved, you get a successful response message. if otherwise, it means either you don't have money in your devnet wallet or it's connected properly.
+![popup](assets/preview/6.png)
+
+- Click the OK button displayed on your screen, and it redirects you to the dashboard
+![dashboard](assets/preview/8.png) 
