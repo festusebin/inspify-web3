@@ -16,6 +16,18 @@ This is a dApp platform built on the Solana blockchain network that allows users
 - And more features coming your way
 - Mobile App
 
+## Technology Used
+👉  Building the Spotify Web3 dApp with Next JS
+- [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+
+👉  Creating your program on the Solana Blockchain using Anchor with Rust
+- [Rust language](https://docs.rs/anchor-lang/latest/anchor_lang/)
+
+👉  Storing your songs on the Solana blockchain
+
+👉  Use Phantom Wallet to authenticate the users
+- [phantom](https://phantom.app/)
+
 
 ## Getting Started
 
@@ -59,3 +71,4 @@ To follow the developmen link, follow the instructions below;
 
 - Click the OK button displayed on your screen, and it redirects you to the dashboard
 ![dashboard](assets/preview/8.png) 
+
