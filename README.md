@@ -19,10 +19,31 @@ This is a dApp platform built on the Solana blockchain network that allows users
 
 ## Getting Started
 
-First, run the development server:
+To run the application on your local machine, follow the instructions below;
+
+- Firstly, you need to clone the repo on your local machine
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/festusebin/inspify-web3.git
 ```
+
+- Secondly, you need to install the packages used to enable the blockchain dApp run successfully by;
+
+```bash
+npm install && npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+To follow the developmen link, follow the instructions below;
+- Click on the link https://inspify.vercel.app it takes you to this screen
+
+![Home Screen](assets/preview/1.png)
+
+- Click on the select phantom wallet as seen on the screen below
+
+![Wallet Screen](assets/preview/2.png)
+
+- Click on connect your phantom wallet and if you don't have the solana's phantom wallet, you can get it here via this link; https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa?hl=en
+
+![Wallet Popup](assets/preview/3.png)
